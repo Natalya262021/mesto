@@ -1,0 +1,14 @@
+.form__input-about{ 
+    border: none;
+    opacity: 0.2;
+    border-bottom: 1px solid #000000;
+    width: 238px;
+    height: 28px;
+}
+@media screen and (min-width:580px) {
+    .form__input-about {
+        width: 358px;
+        height: 27px;
+        padding-top: 15px;
+    }
+}

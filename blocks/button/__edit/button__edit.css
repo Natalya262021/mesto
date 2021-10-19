@@ -1,0 +1,19 @@
+.button__edit {
+   background-image: url(../../../picture/Edit\ Button.svg);
+   width: 24px;
+   height: 24px;
+   background-color: #000000;
+   margin-left: 10px;
+}
+.button__edit:hover{
+   color:rgba(255, 255, 255, 1);
+   opacity: 0.6;
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+   .button__edit {
+      background-image: url(../../../picture/edit2.svg);
+      width: 18px;
+      height: 18px;
+      margin-left: 16px;
+   }
+}

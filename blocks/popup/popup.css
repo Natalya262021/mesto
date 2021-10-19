@@ -1,0 +1,29 @@
+.popup {
+    width: 282px;
+    height: 322px;
+    border: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 123px;
+    left: 19px;
+    display: none;
+}
+@media screen and (min-width:460px){
+    .popup {
+        width: 430px;
+        height: 330px;
+        top: 195px;
+    }
+}
+@media screen and (min-width:1280px){
+    .popup {
+        left: 425px;
+    }
+}
+@media screen and (min-width:1440px){
+    .popup {
+        left: 625px;
+        top: 210px;
+    }
+}

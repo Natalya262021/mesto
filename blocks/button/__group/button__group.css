@@ -1,0 +1,14 @@
+.button__group {
+    background-image: url(../../../picture/Vector\ heart.svg);
+    Width: 22px;
+    Height: 19px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+.button__group:active {
+    background-color: #000000;
+}
+.button__group:hover {
+    border: #000000;
+    opacity: 0.5;
+}

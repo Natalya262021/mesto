@@ -1,0 +1,18 @@
+.root {
+  background-color:#000000;
+}
+@media screen (min-width:768px){
+  .root {
+    padding-left: 41px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .root {
+    padding-left: 72px;
+  }
+}
+@media screen and (min-width:1280px) {
+  .root{
+    padding-left: 200px;
+  }
+}

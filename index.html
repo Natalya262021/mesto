@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mesto</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+<body class="root">
+  <div class="page">
+		<header class="header">
+      <a href="#"><img src="./picture/logo.svg" alt="лого mesto" class="header__logo"></a>
+		</header>
+		<main class="content">
+			<section class="profile">
+				<img src="./picture/Avatar.jpg" alt="avatar" class="profile__avatar">
+				<div class="profile__info">
+					<h1 class="profile__title">Жак-Ив Кусто<button class="button__edit"></button></h1>
+          <p class="profile__subtitle">Исследователь океана</p>
+				</div>
+				<button class="button__add"></button>
+			</section>
+			<section class="elements">
+				<div class="element">
+					<img src="./picture/Карачаево.jpg" alt="фото Карачаево" class="element__mask-group">
+					<div class="element__flex">
+					  <h3 class="element__subtitle">Карачаевск</h3>
+					  <button class="button__group"></button></div>
+				</div>
+				<div class="element">
+					<img src="./picture/Эльбрус.jpg" alt="фото Эльбрус" class="element__mask-group">
+					<div class="element__flex">
+					  <h3 class="element__subtitle">Гора Эльбрус</h3>
+					  <button class="button__group"></button>
+					</div>
+				</div>
+				<div class="element">
+					<img src="./picture/Домбай.jpg" alt="фото Домбай" class="element__mask-group">
+					<div class="element__flex">
+					  <h3 class="element__subtitle">Домбай</h3>
+					  <button class="button__group"></button>
+					</div>
+				</div>
+				<div class="element">
+					<img src="./picture/Эльбрус.jpg" alt="фото Эльбрус" class="element__mask-group">
+					<div class="element__flex">
+					  <h3 class="element__subtitle">Гора Эльбрус</h3>
+					  <button class="button__group"></button>
+				  </div>
+				</div>
+				<div class="element">
+					<img src="./picture/Домбай.jpg" alt="фото Домбай" class="element__mask-group">
+					<div class="element__flex">
+					  <h3 class="element__subtitle">Домбай</h3>
+					  <button class="button__group"></button>
+					</div>
+				</div>
+				<div class="element">
+					<img src="./picture/Карачаево.jpg" alt="Карачаево" class="element__mask-group">
+					<div class="element__flex">
+					  <h3 class="element__subtitle">Карачаево-Черкессия</h3><!---в макете два варианта этого названия выбрала этот-->
+					  <button class="button__group"></button>
+				  </div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<p class="footer__text">&copy;2020 Mesto Russia</p>
+		</footer>
+		<div class="popup">
+			<div class="popup__content">
+				<button class="popup__close"></button>
+				<h2 class="popup__title">Редактировать профиль</h2>
+				<form class="form__popup">
+					<fieldset class="form__input">
+            <input type="text" class="form__input-name" value="Жак-Ив Кусто"></input>
+					</fieldset>
+					<fieldset class="form__input">
+            <input type="text" class="form__input-about" value="Исследователь океана"></input>
+					</fieldset>
+				<button class="button__submit">
+					<p class="button__submit-text">Сохранить</p>
+				</button>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="/scripts/index.js"></script>
+</body>
+</html>

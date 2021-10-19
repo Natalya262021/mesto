@@ -1,0 +1,9 @@
+.element__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    padding-left: 18px;
+    max-width: 246px;
+    margin: 0;
+}
